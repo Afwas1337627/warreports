@@ -1,4 +1,4 @@
-org# War Reports or d
+# War Reports
 
 This code is able to analyze warreports and is used for the Insurgency - Ched's UNT world war.
 The reports are in the /reports folder.
