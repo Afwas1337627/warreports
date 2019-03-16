@@ -5,8 +5,8 @@ The reports are in the /reports folder.
 
 This is a summary of the files in the codebase
 
-##warreport.py
-The main file will grab all .csv files in the /reports folder and populate the members.sqlite database. 
+## warreport.py
+This file will grab all .csv files in the /reports folder and populate the members.sqlite database. 
 This is the main file.
 
 #### all_reports.txt
@@ -14,7 +14,8 @@ A list of warreports as collected by Nova [1570883]. These include all wars (and
 
 #### reports_filtered.txt
 A curated list of relevant wars as provided by Proxima [1879587]. 
-This list excludes fake walls (walls between members of Ched's UNT.)
+This list excludes fake walls (walls between members of Ched's UNT.) 
+If a war is not in this file it wil also not be included in the database.
 
 #### helpers.txt
 A list of players thathave contributed to data in this repository
@@ -26,7 +27,8 @@ The PHP file index.php uses data in this database for output.
 Pro tip: the database is directly accessible through the URL 
 https://github.com/Afwas1337627/warreports/blob/master/members.sqlite?raw=true. 
 Do not click this link but use it for access through a SQLite database viewer like 
-[DB Browser for SQLite](https://sqlitebrowser.org)  or the Chrome plugin [SQLite Manager](https://chrome.google.com/webstore/detail/sqlite-manager/njognipnngillknkhikjecpnbkefclfe).
+[DB Browser for SQLite](https://sqlitebrowser.org)  or the Chrome plugin 
+[SQLite Manager](https://chrome.google.com/webstore/detail/sqlite-manager/njognipnngillknkhikjecpnbkefclfe).
 
 ## AnalyzeWarReport.usr.js
 The userscript used to extract the data from the warreports.
